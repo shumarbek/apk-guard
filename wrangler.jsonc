@@ -1,0 +1,17 @@
+{
+  "name": "telegram-apk-guard",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "triggers": {
+    "crons": ["* * * * *"],
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "apk-guard-db",
+      "database_id": "2d12439a-7c3c-42b4-b1e8-1d132cb7343a",
+      "migrations_dir": "migrations",
+    },
+  ],
+}

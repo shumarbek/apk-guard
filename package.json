@@ -1,0 +1,26 @@
+{
+  "name": "telegram-apk-guard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/run-tests.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "webhook": "node scripts/set-webhook.mjs"
+  },
+  "dependencies": {
+    "grammy": "^1.38.4"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@cloudflare/workers-types": "latest",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2",
+    "vitest": "^5.0.4",
+    "wrangler": "^4.38.0"
+  }
+}

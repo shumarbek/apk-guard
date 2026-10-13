@@ -1,0 +1,3 @@
+BOT_TOKEN=put-local-test-token-here
+WEBHOOK_SECRET=put-random-letters-digits-underscores-or-hyphens-here
+OWNER_IDS=123456789
